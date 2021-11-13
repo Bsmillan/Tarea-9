@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  margin-left: 0.5% !important;
+  margin-right: 0.5% !important;
+}
+#logo{
+  width: 15%;
+  height: inherit;
+  background-color: white !important;
+}
+#datosPersonales{
+  background-color:rgb(190,192,153);
+}
+#menu{
+  background-color: rgb(190,192,153);
+}
+
+a{
+  color: black !important;
+  text-decoration: none !important;
+  text-align: center !important;
+}
+a:hover{
+  background-color: cadetblue !important;
+}
+#perfil{
+  background-color: (190,192,rgb153);
+}
+footer{
+  background-color: rgb(190,192,153);
+}
+#culmino{
+  display: flex;
+  align-items: center;
+}
+#btnform{
+  background-color: cadetblue ;
+}
+#btnform:hover{
+  background-color: rgb(63, 104, 105);
+}
+.form-check-input:checked{
+  background-color: cadetblue !important;
+  border-color: rgb(63, 104, 105) !important;
+}
